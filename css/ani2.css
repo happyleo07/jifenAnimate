@@ -1,0 +1,152 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.rotate img {
+    /* position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url(../img/rotate1.png) center center;
+    background-size: cover; */
+    width: 200%;
+    height: 100%;
+    position: fixed;
+    top: -10%;
+    left: -50%;
+    z-index: 1;
+}
+
+.shine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: url(../img/bg_flw.png);
+    background-size: cover;
+}
+
+
+/* .rotate>img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50% 0 0 -50%;
+} */
+
+.jf_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.jf_inner .jf_head {
+    width: 70%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -35%;
+}
+
+.jf_inner .jf_head>div {
+    width: 100%;
+    background: #fcf1eb;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.jf_inner .jf_head>div p {
+    color: #c8161d;
+    font-size: 1.5em;
+    line-height: 3em;
+    font-family: "黑体";
+}
+
+.jf_head>p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.jf_body {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+}
+
+.jf_body>div {
+    position: relative;
+    z-index: 2;
+}
+
+.body_bottom {
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    top: 152px;
+    left: 50%;
+    margin-left: -55%;
+}
+
+.body_bottom>img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 底部 */
+
+.ewm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.ewm>img {
+    width: 100%;
+    height: 138px;
+    display: block;
+}
+
+
+/* 动画部分 */
+
+.tcm {
+    position: absolute;
+    bottom: 158px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.tcm>img {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
